@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" href="Shopping-cart.css"  type="text/css">
+<script type="text/javascript" src="Shopping-cart.js"></script>
+
+</head>
+
+<body style='background-color:#ddc899'>
+			
+<div id="nw"><h1>Search your favorite item and purchase</h1>
+				<label>Enter item to search </label>
+				<br>
+				<input id="myInput" onkeypress="search()" placeholder="Search.." type=text title="Type in a name">
+				<button id="btn" onClick="search()">Find</button><hr><p id="pw"></p>
+				<button id="reset" onClick="reset()" >Reset</button>
+				<button id="add" onClick="add()">Add</button></div>
+				</div>
+<div id="ne"><p id="quant"></p><button id="chkout" onClick="checkout()" action="param-received.html" method="GET">Checkout</button>
+<p id="quant1"></p>
+				<p id="total"></p>
+</div>
+<div id="sw">
+				
+<div id="se">
+				</div>
+</body>				
+
+</html>
